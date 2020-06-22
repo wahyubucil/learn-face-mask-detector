@@ -26,7 +26,7 @@ export const renderPredictions = (ctx, predictions) => {
       ctx.setStrokeStyle("#FF0000");
       ctx.setLineWidth(border);
     } else {
-      ctx.setStrokeStyle("#00FF00");
+      ctx.setStrokeStyle("#45b642");
       ctx.setLineWidth(border);
     }
 
@@ -40,7 +40,7 @@ export const renderPredictions = (ctx, predictions) => {
     if (predictionText.includes("No")) {
       ctx.setFillStyle("#FF0000");
     } else {
-      ctx.setFillStyle("#00FF00");
+      ctx.setFillStyle("#45b642");
     }
     const textWidth = ctx.measureText(predictionText).width;
     ctx.fillRect(
